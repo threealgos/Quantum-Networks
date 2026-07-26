@@ -1,0 +1,12 @@
+
+$(function () {
+  var form1 = feedbackForm();
+  form1.init({
+    id: '#feedbackForm',
+    isHideForm: true,
+    maxFiles: 3,
+    maxFileSize: 524288,
+    validExtFiles: ['jpg', 'jpeg', 'gif', 'png']
+  });
+
+});

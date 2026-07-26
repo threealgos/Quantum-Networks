@@ -1,0 +1,117 @@
+.feedback_close {
+	position: absolute;
+	top: -45px;
+	right: 0;
+	box-sizing: border-box;
+	width: 24px;
+	height: 24px;
+	background: url(https://secretscan.org/img/popup_close.png) center center no-repeat;
+	cursor: pointer;
+}
+
+h1.feedback, h2.feedback, h3.feedback {
+	font-weight: 500;
+	line-height: 1.2;
+	color: inherit;
+	margin: 8px 0px;
+}
+
+.form-con {
+	display: block;
+	width:100%;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.2;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.feedback_btn {
+	display: inline-block;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: 1px solid transparent;
+	padding: .375rem .75rem;
+	border-radius: .25rem;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	color: #fff;
+	background-color: #007bff;
+	border-color: #007bff;
+	cursor: pointer;
+}
+.reload {
+	font-family: Lucida Sans Unicode;
+	border: 1px solid #ced4da;
+	padding:5px 8px;
+	border-radius: .25rem;
+	margin-top:18px;
+}
+.btn:not(:disabled):not(.disabled) {
+	cursor: pointer;
+}
+.btn-light {
+	color: #212529;
+	background-color: #f8f9fa;
+	border-color: #f8f9fa;
+	vertical-align:top;
+}
+
+.d-none {
+	display: none !important;
+}
+.alert-danger {
+	color: #721c24;
+	background-color: #f8d7da;
+	border-color: #f5c6cb;
+}
+.alert {
+	position: relative;
+	padding: .75rem 1.25rem;
+	margin-bottom: 1rem;
+	border: 1px solid transparent;
+	border-radius: .25rem;
+}
+.custom-select.is-invalid, .form-control.is-invalid, .was-validated .custom-select:invalid, .was-validated .form-control:invalid {
+	border-color: #dc3545;
+}
+.feedback_body {
+	1display: none;
+	background-color: #000;
+	height: 100%;
+	left: 0;
+	opacity: 0.50;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+.feedback_form {
+	font-size: 14px;
+	position: fixed;
+	opacity: 1;
+	color: white;
+	text-align: left;
+	z-index: 1000;
+	width: 430px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color: #f5f5f5;
+	padding: 50px;
+	line-height: 2;
+	color:#000;
+}
+.invalid-feedback {
+	color:red;
+	line-height: 1;
+	margin-top:10px;
+}
